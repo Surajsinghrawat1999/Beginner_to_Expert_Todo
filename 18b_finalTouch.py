@@ -1,6 +1,7 @@
 import function
 import PySimpleGUI as sg
 import time
+
 sg.theme("Black")
 
 clock = sg.Text('', key="clock")
