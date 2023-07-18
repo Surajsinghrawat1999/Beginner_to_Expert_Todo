@@ -7,7 +7,7 @@ add_button = sg.Button("Add")
 
 window = sg.Window('My To-Do App',
                    layout = [[label], [input_box, add_button]],
-                   font = ('Helvetica', 20))
+                   font = ('Helvetica', 15))
 while True:
     event, values = window.read()
     print(event)
